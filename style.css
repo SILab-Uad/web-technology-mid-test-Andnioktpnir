@@ -24,4 +24,34 @@ h1 {
     color: #4a4a4a; /* Header color */
 }
 
+label {
+    font-size: 1.1em;
+    color:blue;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"], input[type="checkbox"] {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color:beige;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+    font-size: 1em;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:aquamarine;
+}
+
 /* Add more styles here as needed */
